@@ -34,7 +34,7 @@
     "sitemap": "7.1.1",
     "tsconfig": "workspace:*",
     "typescript": "5.2.2",
-    "vite-plugin-pwa": "0.17.3",
+    "vite-plugin-pwa": "0.21.1",
     "vitepress": "1.0.0-rc.31",
     "workbox-window": "7.0.0"
   },
