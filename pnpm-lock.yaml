@@ -131,8 +131,8 @@ importers:
         specifier: 0.25.2
         version: 0.25.2(typescript@5.2.2)
       typedoc-plugin-markdown:
-        specifier: 4.0.0-next.25
-        version: 4.0.0-next.25(typedoc@0.25.2)
+        specifier: 4.4.1
+        version: 4.4.1(typedoc@0.25.2)
       typescript:
         specifier: 5.2.2
         version: 5.2.2
@@ -7298,10 +7298,11 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
-  /typedoc-plugin-markdown@4.0.0-next.25(typedoc@0.25.2):
-    resolution: {integrity: sha512-OAucyztjyTcJhpyH8lK3r6W/9lGYxRnEphmphAi8CLL4pBqzA9A00OaOWt4ybkcFBnB8zNIZ4SGCz1sk9NBA3g==}
+  /typedoc-plugin-markdown@4.4.1(typedoc@0.25.2):
+    resolution: {integrity: sha512-fx23nSCvewI9IR8lzIYtzDphETcgTDuxKcmHKGD4lo36oexC+B1k4NaCOY58Snqb4OlE8OXDAGVcQXYYuLRCNw==}
+    engines: {node: '>= 18'}
     peerDependencies:
-      typedoc: '>=0.25.0'
+      typedoc: 0.27.x
     dependencies:
       typedoc: 0.25.2(typescript@5.2.2)
     dev: true
@@ -8003,6 +8004,7 @@ packages:
 
   /workbox-google-analytics@7.0.0:
     resolution: {integrity: sha512-MEYM1JTn/qiC3DbpvP2BVhyIH+dV/5BjHk756u9VbwuAhu0QHyKscTnisQuz21lfRpOwiS9z4XdqeVAKol0bzg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 7.0.0
       workbox-core: 7.0.0
