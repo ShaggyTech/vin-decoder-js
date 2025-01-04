@@ -30,7 +30,7 @@
     "prettier": "3.0.3",
     "prettier-config": "workspace:*",
     "rimraf": "5.0.5",
-    "sass": "1.69.4",
+    "sass": "1.83.1",
     "sitemap": "7.1.1",
     "tsconfig": "workspace:*",
     "typescript": "5.2.2",
