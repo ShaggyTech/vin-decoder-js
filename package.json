@@ -42,7 +42,7 @@
     "ci:publish": "pnpm run build && pnpm publish -r"
   },
   "devDependencies": {
-    "@changesets/cli": "2.26.2",
+    "@changesets/cli": "2.27.12",
     "@commitlint/cli": "18.1.0",
     "@commitlint/config-conventional": "18.1.0",
     "husky": "8.0.3",
