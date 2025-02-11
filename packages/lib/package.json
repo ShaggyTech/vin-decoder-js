@@ -88,7 +88,7 @@
     "prettier-config": "workspace:*",
     "rimraf": "5.0.5",
     "tsconfig": "workspace:*",
-    "typedoc": "0.25.2",
+    "typedoc": "0.27.7",
     "typedoc-config": "workspace:*",
     "typescript": "5.2.2",
     "vite": "5.0.5",
