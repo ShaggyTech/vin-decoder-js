@@ -22,7 +22,7 @@
     "vue": "3.3.7"
   },
   "devDependencies": {
-    "@types/node": "18.18.7",
+    "@types/node": "18.19.79",
     "@vite-pwa/vitepress": "0.3.1",
     "dotenv": "16.3.1",
     "eslint": "8.52.0",

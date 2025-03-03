@@ -12,6 +12,6 @@
     "vite-press.json"
   ],
   "dependencies": {
-    "@types/node": "18.18.7"
+    "@types/node": "18.19.79"
   }
 }
